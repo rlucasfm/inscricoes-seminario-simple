@@ -56,6 +56,7 @@
             <h1>Tudo certo!</h1>
             <p>Sua inscrição foi realizada com sucesso!</p>
             <p>{{ $success }}</p>
+            <a href="{ url('/') }">Retornar as inscrições</a>
         </div>
     @endisset
     @isset ($error)
@@ -66,6 +67,7 @@
             <h1 style="color: red">Houve um erro!</h1>
             <p>Sua inscrição não pôde ser realizada!</p>
             <p style="font-size: 2px;">{{ $error }}</p>
+            <a href="{ url('/') }">Retornar as inscrições</a>
         </div>
     @endisset
 </body>

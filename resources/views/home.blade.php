@@ -36,7 +36,7 @@
                     <label for="cpf" class="formbold-form-label">
                         CPF*
                     </label>
-                    <input type="text" name="cpf" id="cpf" class="formbold-form-input" required/>
+                    <input type="text" name="cpf" id="cpf" class="formbold-form-input"/>
                 </div>
 
                 <div class="formbold-mb-3">

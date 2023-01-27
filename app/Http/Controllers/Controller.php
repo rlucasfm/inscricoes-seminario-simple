@@ -21,7 +21,7 @@ class Controller extends BaseController
         try {
             $requested_data = [
                 'name' => $request->input('name'),
-                'cpf' => $request->input('cpf'),
+                'cpf' => $request->input('cpf', '0'),
                 'igreja' => $request->input('igreja'),
                 'value' => $request->input('valor'),
             ];
