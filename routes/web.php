@@ -14,5 +14,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [Controller::class, 'home'])->name('home');
+Route::get('/', [Controller::class, 'landingpage'])->name('landingpage');
+Route::get('/inscricao', [Controller::class, 'home'])->name('home');
 Route::post('/inscrever', [Controller::class, 'inscrever'])->name('inscrever');

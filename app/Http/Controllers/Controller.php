@@ -13,6 +13,10 @@ class Controller extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
 
+    public function landingpage() {
+        return view('landingpage');
+    }
+
     public function home() {
         return view('home');
     }
